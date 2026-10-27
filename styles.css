@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+.main {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+#like, #dislike {
+    font-size: 40px;
+    padding: 5px 25px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+textarea {
+    display: block;
+    width: 80%;
+    height: 110px;
+    margin: 10px auto 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+#form button {
+    background: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#comments {
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.comment {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
